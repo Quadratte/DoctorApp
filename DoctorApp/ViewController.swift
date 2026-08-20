@@ -1,19 +1,9 @@
-//
-//  ViewController.swift
-//  DoctorApp
-//
-//  Created by S&Q on 20.08.2026.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .cyan
     }
-
-
 }
-

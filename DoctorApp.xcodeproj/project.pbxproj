@@ -6,30 +6,21 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		10FAA972303796D30062F736 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FAA96C303796D30062F736 /* AppDelegate.swift */; };
+		10FAA973303796D30062F736 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FAA96F303796D30062F736 /* SceneDelegate.swift */; };
+		10FAA974303796D30062F736 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FAA970303796D30062F736 /* ViewController.swift */; };
+		10FAA975303796D30062F736 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10FAA96D303796D30062F736 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		10FAA954303796A70062F736 /* DoctorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoctorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10FAA96C303796D30062F736 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		10FAA96D303796D30062F736 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10FAA96E303796D30062F736 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10FAA96F303796D30062F736 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		10FAA970303796D30062F736 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		10FAA966303796A70062F736 /* Exceptions for "DoctorApp" folder in "DoctorApp" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 10FAA953303796A70062F736 /* DoctorApp */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		10FAA956303796A70062F736 /* DoctorApp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				10FAA966303796A70062F736 /* Exceptions for "DoctorApp" folder in "DoctorApp" target */,
-			);
-			path = DoctorApp;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		10FAA951303796A70062F736 /* Frameworks */ = {
@@ -45,7 +36,7 @@
 		10FAA94B303796A70062F736 = {
 			isa = PBXGroup;
 			children = (
-				10FAA956303796A70062F736 /* DoctorApp */,
+				10FAA971303796D30062F736 /* DoctorApp */,
 				10FAA955303796A70062F736 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +47,18 @@
 				10FAA954303796A70062F736 /* DoctorApp.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		10FAA971303796D30062F736 /* DoctorApp */ = {
+			isa = PBXGroup;
+			children = (
+				10FAA96C303796D30062F736 /* AppDelegate.swift */,
+				10FAA96F303796D30062F736 /* SceneDelegate.swift */,
+				10FAA970303796D30062F736 /* ViewController.swift */,
+				10FAA96D303796D30062F736 /* Assets.xcassets */,
+				10FAA96E303796D30062F736 /* Info.plist */,
+			);
+			path = DoctorApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +75,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				10FAA956303796A70062F736 /* DoctorApp */,
 			);
 			name = DoctorApp;
 			packageProductDependencies = (
@@ -122,6 +122,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10FAA975303796D30062F736 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +133,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10FAA972303796D30062F736 /* AppDelegate.swift in Sources */,
+				10FAA973303796D30062F736 /* SceneDelegate.swift in Sources */,
+				10FAA974303796D30062F736 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,9 +154,8 @@
 				INFOPLIST_FILE = DoctorApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -161,12 +164,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dev.mobinson.DoctorApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -182,9 +189,8 @@
 				INFOPLIST_FILE = DoctorApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -193,12 +199,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dev.mobinson.DoctorApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
