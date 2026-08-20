@@ -13,6 +13,8 @@
 		10FAA975303796D30062F736 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10FAA96D303796D30062F736 /* Assets.xcassets */; };
 		10FAA9793037A4960062F736 /* DoctorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FAA9783037A4910062F736 /* DoctorModel.swift */; };
 		10FAA97C3037A4CC0062F736 /* DoctorListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FAA97B3037A4CB0062F736 /* DoctorListViewController.swift */; };
+		10FAA97F3037A9600062F736 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FAA97E3037A95C0062F736 /* MockData.swift */; };
+		10FAA9823037AAC60062F736 /* DoctorListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FAA9813037AABD0062F736 /* DoctorListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		10FAA970303796D30062F736 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		10FAA9783037A4910062F736 /* DoctorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorModel.swift; sourceTree = "<group>"; };
 		10FAA97B3037A4CB0062F736 /* DoctorListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorListViewController.swift; sourceTree = "<group>"; };
+		10FAA97E3037A95C0062F736 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		10FAA9813037AABD0062F736 /* DoctorListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,9 @@
 		10FAA971303796D30062F736 /* DoctorApp */ = {
 			isa = PBXGroup;
 			children = (
+				10FAA97D3037A9550062F736 /* MockData */,
 				10FAA9773037A4850062F736 /* Model */,
+				10FAA9803037AAAD0062F736 /* View */,
 				10FAA97A3037A4BE0062F736 /* Controller */,
 				10FAA96C303796D30062F736 /* AppDelegate.swift */,
 				10FAA96F303796D30062F736 /* SceneDelegate.swift */,
@@ -81,6 +87,22 @@
 				10FAA97B3037A4CB0062F736 /* DoctorListViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		10FAA97D3037A9550062F736 /* MockData */ = {
+			isa = PBXGroup;
+			children = (
+				10FAA97E3037A95C0062F736 /* MockData.swift */,
+			);
+			path = MockData;
+			sourceTree = "<group>";
+		};
+		10FAA9803037AAAD0062F736 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				10FAA9813037AABD0062F736 /* DoctorListCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,7 +178,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				10FAA9793037A4960062F736 /* DoctorModel.swift in Sources */,
+				10FAA97F3037A9600062F736 /* MockData.swift in Sources */,
 				10FAA97C3037A4CC0062F736 /* DoctorListViewController.swift in Sources */,
+				10FAA9823037AAC60062F736 /* DoctorListCell.swift in Sources */,
 				10FAA972303796D30062F736 /* AppDelegate.swift in Sources */,
 				10FAA973303796D30062F736 /* SceneDelegate.swift in Sources */,
 				10FAA974303796D30062F736 /* ViewController.swift in Sources */,
