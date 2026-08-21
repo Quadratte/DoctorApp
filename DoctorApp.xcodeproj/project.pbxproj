@@ -7,17 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1086048B3038EE5000895E12 /* LeagueSpartan-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 108604863038EE5000895E12 /* LeagueSpartan-Light.ttf */; };
+		1086048C3038EE5000895E12 /* LeagueSpartan-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 108604823038EE5000895E12 /* LeagueSpartan-Black.ttf */; };
+		1086048D3038EE5000895E12 /* LeagueSpartan-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 108604873038EE5000895E12 /* LeagueSpartan-Medium.ttf */; };
+		1086048E3038EE5000895E12 /* LeagueSpartan-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 108604883038EE5000895E12 /* LeagueSpartan-Regular.ttf */; };
+		1086048F3038EE5000895E12 /* LeagueSpartan-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 108604853038EE5000895E12 /* LeagueSpartan-ExtraLight.ttf */; };
+		108604903038EE5000895E12 /* LeagueSpartan-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 108604833038EE5000895E12 /* LeagueSpartan-Bold.ttf */; };
+		108604913038EE5000895E12 /* LeagueSpartan-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 108604893038EE5000895E12 /* LeagueSpartan-SemiBold.ttf */; };
+		108604923038EE5000895E12 /* LeagueSpartan-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 108604843038EE5000895E12 /* LeagueSpartan-ExtraBold.ttf */; };
+		108604933038EE5000895E12 /* LeagueSpartan-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1086048A3038EE5000895E12 /* LeagueSpartan-Thin.ttf */; };
 		10FAA972303796D30062F736 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FAA96C303796D30062F736 /* AppDelegate.swift */; };
 		10FAA973303796D30062F736 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FAA96F303796D30062F736 /* SceneDelegate.swift */; };
 		10FAA974303796D30062F736 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FAA970303796D30062F736 /* ViewController.swift */; };
 		10FAA975303796D30062F736 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10FAA96D303796D30062F736 /* Assets.xcassets */; };
 		10FAA9793037A4960062F736 /* DoctorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FAA9783037A4910062F736 /* DoctorModel.swift */; };
-		10FAA97C3037A4CC0062F736 /* DoctorListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FAA97B3037A4CB0062F736 /* DoctorListViewController.swift */; };
+		10FAA97C3037A4CC0062F736 /* DoctorsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FAA97B3037A4CB0062F736 /* DoctorsListViewController.swift */; };
 		10FAA97F3037A9600062F736 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FAA97E3037A95C0062F736 /* MockData.swift */; };
 		10FAA9823037AAC60062F736 /* DoctorListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FAA9813037AABD0062F736 /* DoctorListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		108604823038EE5000895E12 /* LeagueSpartan-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-Black.ttf"; sourceTree = "<group>"; };
+		108604833038EE5000895E12 /* LeagueSpartan-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-Bold.ttf"; sourceTree = "<group>"; };
+		108604843038EE5000895E12 /* LeagueSpartan-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-ExtraBold.ttf"; sourceTree = "<group>"; };
+		108604853038EE5000895E12 /* LeagueSpartan-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-ExtraLight.ttf"; sourceTree = "<group>"; };
+		108604863038EE5000895E12 /* LeagueSpartan-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-Light.ttf"; sourceTree = "<group>"; };
+		108604873038EE5000895E12 /* LeagueSpartan-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-Medium.ttf"; sourceTree = "<group>"; };
+		108604883038EE5000895E12 /* LeagueSpartan-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-Regular.ttf"; sourceTree = "<group>"; };
+		108604893038EE5000895E12 /* LeagueSpartan-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-SemiBold.ttf"; sourceTree = "<group>"; };
+		1086048A3038EE5000895E12 /* LeagueSpartan-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-Thin.ttf"; sourceTree = "<group>"; };
 		10FAA954303796A70062F736 /* DoctorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoctorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10FAA96C303796D30062F736 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10FAA96D303796D30062F736 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -25,7 +43,7 @@
 		10FAA96F303796D30062F736 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		10FAA970303796D30062F736 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		10FAA9783037A4910062F736 /* DoctorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorModel.swift; sourceTree = "<group>"; };
-		10FAA97B3037A4CB0062F736 /* DoctorListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorListViewController.swift; sourceTree = "<group>"; };
+		10FAA97B3037A4CB0062F736 /* DoctorsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsListViewController.swift; sourceTree = "<group>"; };
 		10FAA97E3037A95C0062F736 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 		10FAA9813037AABD0062F736 /* DoctorListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -41,6 +59,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1086047F3038DF9200895E12 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				10FAA96C303796D30062F736 /* AppDelegate.swift */,
+				10FAA96F303796D30062F736 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		108604803038EDD800895E12 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				108604813038EDE600895E12 /* Fonts */,
+				10FAA96D303796D30062F736 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		108604813038EDE600895E12 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				108604823038EE5000895E12 /* LeagueSpartan-Black.ttf */,
+				108604833038EE5000895E12 /* LeagueSpartan-Bold.ttf */,
+				108604843038EE5000895E12 /* LeagueSpartan-ExtraBold.ttf */,
+				108604853038EE5000895E12 /* LeagueSpartan-ExtraLight.ttf */,
+				108604863038EE5000895E12 /* LeagueSpartan-Light.ttf */,
+				108604873038EE5000895E12 /* LeagueSpartan-Medium.ttf */,
+				108604883038EE5000895E12 /* LeagueSpartan-Regular.ttf */,
+				108604893038EE5000895E12 /* LeagueSpartan-SemiBold.ttf */,
+				1086048A3038EE5000895E12 /* LeagueSpartan-Thin.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		10FAA94B303796A70062F736 = {
 			isa = PBXGroup;
 			children = (
@@ -60,14 +112,12 @@
 		10FAA971303796D30062F736 /* DoctorApp */ = {
 			isa = PBXGroup;
 			children = (
+				1086047F3038DF9200895E12 /* Application */,
 				10FAA97D3037A9550062F736 /* MockData */,
 				10FAA9773037A4850062F736 /* Model */,
 				10FAA9803037AAAD0062F736 /* View */,
 				10FAA97A3037A4BE0062F736 /* Controller */,
-				10FAA96C303796D30062F736 /* AppDelegate.swift */,
-				10FAA96F303796D30062F736 /* SceneDelegate.swift */,
-				10FAA970303796D30062F736 /* ViewController.swift */,
-				10FAA96D303796D30062F736 /* Assets.xcassets */,
+				108604803038EDD800895E12 /* Resources */,
 				10FAA96E303796D30062F736 /* Info.plist */,
 			);
 			path = DoctorApp;
@@ -84,7 +134,8 @@
 		10FAA97A3037A4BE0062F736 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				10FAA97B3037A4CB0062F736 /* DoctorListViewController.swift */,
+				10FAA970303796D30062F736 /* ViewController.swift */,
+				10FAA97B3037A4CB0062F736 /* DoctorsListViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -167,6 +218,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				10FAA975303796D30062F736 /* Assets.xcassets in Resources */,
+				1086048B3038EE5000895E12 /* LeagueSpartan-Light.ttf in Resources */,
+				1086048C3038EE5000895E12 /* LeagueSpartan-Black.ttf in Resources */,
+				1086048D3038EE5000895E12 /* LeagueSpartan-Medium.ttf in Resources */,
+				1086048E3038EE5000895E12 /* LeagueSpartan-Regular.ttf in Resources */,
+				1086048F3038EE5000895E12 /* LeagueSpartan-ExtraLight.ttf in Resources */,
+				108604903038EE5000895E12 /* LeagueSpartan-Bold.ttf in Resources */,
+				108604913038EE5000895E12 /* LeagueSpartan-SemiBold.ttf in Resources */,
+				108604923038EE5000895E12 /* LeagueSpartan-ExtraBold.ttf in Resources */,
+				108604933038EE5000895E12 /* LeagueSpartan-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,7 +239,7 @@
 			files = (
 				10FAA9793037A4960062F736 /* DoctorModel.swift in Sources */,
 				10FAA97F3037A9600062F736 /* MockData.swift in Sources */,
-				10FAA97C3037A4CC0062F736 /* DoctorListViewController.swift in Sources */,
+				10FAA97C3037A4CC0062F736 /* DoctorsListViewController.swift in Sources */,
 				10FAA9823037AAC60062F736 /* DoctorListCell.swift in Sources */,
 				10FAA972303796D30062F736 /* AppDelegate.swift in Sources */,
 				10FAA973303796D30062F736 /* SceneDelegate.swift in Sources */,
